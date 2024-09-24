@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+}
+main {
+    height:100vh;
+    position:fixed;
+    overflow-y: auto;
+}
+.sidebar {
+    width: 280px;
+    height:100vh;
+    position:fixed;
+    background-color: rgb(49 157 253) !important;
+}
+.content {
+    margin-left: 290px; /* Ajusta o conteúdo principal para não sobrepor a sidebar */
+    padding: 20px;
+    background-color: #f4f4f4;
+  }
+.ui-menu { 
+    width: 250px;
+}
+
+.ui-widget-content {
+    border: 1px solid rgb(49 157 253) !important;
+    /* background: #ffffff; */
+    color: #333333;
+    background-color: rgb(49 157 253) !important;
+}
+.ui-menu-item { 
+    font-weight: bold;
+}
